@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+:root{
+  --bg-primary:#ffffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../src/assets/img/windowsxp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: 'VT323', monospace;
+  cursor: pointer;
+}
+.windowsxp__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(60,134,234,1) 0%, rgba(34,92,219,1) 50%, rgba(35,92,219,1) 94%);
+}
+.windowsxp__s {
+  background: linear-gradient(105deg, rgba(148,198,145,1) 0%, rgba(71,185,71,1) 23%, rgba(42,182,48,1) 42%, rgba(34,187,42,1) 54%, rgba(39,158,39,1) 66%, rgba(15,46,15,1) 96%);
+  padding: 5px;
+  width: 110px;
+  display: flex;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.windowsxp__s img{
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+.windowsxp__s p{
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--bg-primary);
+  padding-top:3px;
+}
+.windowsxp__explorer {
+  position: relative;
+  left:30px;
+}
+.windowsxp__end {
+  background-color: #1186e2;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.windowsxpend__img {
+  margin-top: 8px;
+}
+.windowsxpend__img .security {
+  width: 25px;
+}
+.windowsxpend__img .sound{
+  width: 40px;
+  margin-left: 10px;
+}
+.windowsxp__clock p{
+  margin-top: 14px;
+  color: var(--bg-primary);
+}
+.windos {
+  display: flex;
+  justify-content: center;
+}
+/*start__menu*/
+.start__menu {
+position: absolute;
+left: 0;
+bottom: 44px;
+background-color: #1186e2;
+height: 60vh;
+width: 30vw;
+padding: 10px;
+}
+
