@@ -10,13 +10,14 @@ import Startmenu from './Startmenu'
 
 function Footer() {
     const [openModal, setOpenModal] = useState(false)
+
+    
+    
   return (
     <div className='windowsxp__footer'>
       <div className='windowsxp__start'>
           <div className='windowsxp__s'>
-             <div className='windos' onClick={() => {
-          setOpenModal(true);
-        }}>
+             <div className='windos' onClick={() => {setOpenModal(true);}}>
                <img src={Logo} alt=""/>
                <p> start </p>
                {openModal &&  <Startmenu setOpenModal={setOpenModal} />}

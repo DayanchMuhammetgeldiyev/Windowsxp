@@ -81,3 +81,23 @@ width: 30vw;
 padding: 10px;
 }
 
+/* LoginPage */
+.windowsxp__login {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.windowsxp__up {
+  background-color: #002db3;
+  height: 15vh;
+}
+.windowsxp__middle{
+  background-color: #1a94f1;
+  height: 70vh;
+}
+.windowsxp__last {
+  background-color: #002db3;
+  height: 15vh;
+}
