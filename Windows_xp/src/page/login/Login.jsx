@@ -1,4 +1,5 @@
 import React from 'react'
+import Loginpic from "../../assets/img/windowsxp.png"
 
 function Login() {
   return (
@@ -7,7 +8,14 @@ function Login() {
             1
         </div>
         <div className='windowsxp__middle'>
-            2
+          <div className='windowsxp__lscs'>
+              <img src={Loginpic} alt="" />
+          </div>
+          <div className='windowsxp__form'>
+            <form action="/" method="post">
+              <input type="text" />
+            </form>
+          </div>
         </div>
         <div className='windowsxp__last'>
             3
